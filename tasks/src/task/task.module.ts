@@ -17,7 +17,7 @@ import { join } from 'path';
         transport: Transport.GRPC,
         options: {
           package: 'user',
-          protoPath: join(__dirname, '../../../protos/user.proto'), // <--- ESTA ES LA RUTA CORRECTA
+          protoPath: join(__dirname, '../../../protos/user.proto'),
           url: '0.0.0.0:5001',
           loader: { keepCase: true },
         },
